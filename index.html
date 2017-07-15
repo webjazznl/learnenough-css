@@ -4,6 +4,31 @@
   <head>
     <meta charset="utf-8">
     <title>Test page: Don't Panic</title>
+    <style>
+      li a {
+        color: red;
+      }
+      div {
+        border: 1px solid black;
+      }
+
+      #exec-bio {
+        background-color: lightgray;
+      }
+      .bio-box {
+        border: 1px solid black;
+      }
+      .bio-box a {
+        color: green;
+      }
+
+      #warning {
+        background-color: orange;
+      }
+      .info {
+        background-color: azure;
+      }
+    </style>
   </head>
   <body>
     <h1>Header 1</h1>
@@ -13,9 +38,10 @@
       <li><a href="#">Link</a></li>
     </ul>
     <h2>Header 2</h2>
-    <div><a href="#">Link</a></div>
-    <div><a href="#">Link</a></div>
-    <div><a href="#">Link</a></div>
-    <div><a href="#">Link</a></div>
+    <!-- background-color from id wins!.. -->
+    <div id="exec-bio" class="bio-box info"><a href="#">Link</a></div>
+    <div class="bio-box info"><a href="#">Link</a></div>
+    <div class="bio-box info"><a href="#">Link</a></div>
+    <div class="bio-box info"><a href="#" id="warning">Link</a></div>
   </body>
 </html>
