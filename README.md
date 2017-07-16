@@ -24,3 +24,7 @@ specific than *li a*
 ## Percentages height or width
 
 * Are always relative to their containers. Who should have height or width defined too for it to work.
+
+## Font size: use em or rem
+
+* 1 em equals 1 * the default font size in pixels of the parent element (default is 16px). So 2em equals 32px. Works with inheritance. rem always calculates from the html element.
