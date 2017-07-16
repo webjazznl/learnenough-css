@@ -13,12 +13,11 @@ specific than *li a*
 
 * Avoid using *!important*  at all cost.
 
-##Selectors
+## Selectors
 
 * Keep them max 3 levels deep.
 
-
-##color
+## Color
 
 * [Named-colors-and-hex-equivalents](https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/)
 
