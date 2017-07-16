@@ -21,3 +21,7 @@ specific than *li a*
 ##color
 
 * [Named-colors-and-hex-equivalents](https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/)
+
+## Percentages height or width
+
+* Are always relative to their containers. Who should have height or width defined too for it to work.
