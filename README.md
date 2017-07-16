@@ -1,4 +1,4 @@
-# CSS lessons
+# CSS Lessons Learned
 
 ## Specific
 
@@ -28,3 +28,7 @@ specific than *li a*
 ## Font size: use em or rem
 
 * 1 em equals 1 * the default font size in pixels of the parent element (default is 16px). So 2em equals 32px. Works with inheritance. rem always calculates from the html element.
+
+## Fonts : rule of thumb
+
+* Use relative units for text, simply pick random numbers that set the font sizes somewhat close to what your design calls for (seriously).
